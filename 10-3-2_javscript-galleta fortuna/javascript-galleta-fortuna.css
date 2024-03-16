@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/IMG/nebula.webp);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color:white;
+    font-size: 25px;
+}
+
+#botonFortuna{
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8c00ffd5;
+    color: #f8eeee;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#botonFortuna:hover {
+    background-color: #0056b3;
+    font-weight: bold;
+}
+
+.frase{
+    width: 500px;
+    height: 50px;
+    background-color: #b4cae275;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
